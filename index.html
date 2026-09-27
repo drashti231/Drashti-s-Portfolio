@@ -1862,7 +1862,7 @@
                 <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18M10 12v2h4v-2" />
               </svg></div>
             <div class="stop-card">
-              <div class="stop-head"><span class="pill">INTERNSHIP</span><span class="date-tag">Aug 2026 €” Oct
+              <div class="stop-head"><span class="pill">INTERNSHIP</span><span class="date-tag">Aug 2026  -  Oct
                   2026</span></div>
               <h3>Web Development Intern</h3>
               <span class="org">Unified Mentor &middot; Remote</span>
@@ -1882,7 +1882,7 @@
                 <path d="M7 12v5c3 2 7 2 10 0v-5M21 9v6" />
               </svg></div>
             <div class="stop-card">
-              <div class="stop-head"><span class="pill">INTERNSHIP</span><span class="date-tag">Apr 2026 €” Jul
+              <div class="stop-head"><span class="pill">INTERNSHIP</span><span class="date-tag">Apr 2026  -  Jul
                   2026</span></div>
               <h3>Web Development Intern</h3>
               <span class="org">Firevy Co Company &middot; Surat</span>
@@ -1903,7 +1903,7 @@
                 <path d="M7 12v5c3 2 7 2 10 0v-5M21 9v6" />
               </svg></div>
             <div class="stop-card">
-              <div class="stop-head"><span class="pill">INTERNSHIP</span><span class="date-tag">Jan 2026 €” Feb
+              <div class="stop-head"><span class="pill">INTERNSHIP</span><span class="date-tag">Jan 2026  -  Feb
                   2026</span></div>
               <h3>GIS Intern</h3>
               <span class="org">India Space Academy &middot; Remote</span>
@@ -2444,7 +2444,7 @@
         return sum + [...z.children].filter(c => c.style.borderColor === 'var(--rust)' || getComputedStyle(c).borderColor === getComputedStyle(document.documentElement).getPropertyValue('--rust')).length;
       }, 0);
       const totalPlaced = zonesEl.querySelectorAll('.drop-chips .chip').length;
-      gameMsg.textContent = `${totalPlaced} of ${GAME_SKILLS.length} placed €” check the outlined chips for correct matches`;
+      gameMsg.textContent = `${totalPlaced} of ${GAME_SKILLS.length} placed  -  check the outlined chips for correct matches`;
       gameProgress.textContent = `${totalPlaced} / ${GAME_SKILLS.length}`;
       gameProgressBar.style.setProperty('--progress', `${(totalPlaced / GAME_SKILLS.length) * 100}%`);
 
@@ -2461,7 +2461,7 @@
     document.getElementById('resetGame').addEventListener('click', buildGame);
     giveUp.addEventListener('click', () => {
       clearInterval(gameTimer);
-      gameMsg.textContent = 'Game paused €” reset to play again';
+      gameMsg.textContent = 'Game paused  -  reset to play again';
       document.getElementById('skillFlight').style.display = 'block';
     });
 
